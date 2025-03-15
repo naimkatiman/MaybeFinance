@@ -1,0 +1,49 @@
+# Binaries and executables
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+
+# Environment variables (may contain sensitive info)
+.env
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Build outputs
+dist/
+build/
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cloudflared specific
+.cloudflared/

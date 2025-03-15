@@ -1,0 +1,8 @@
+tunnel: maybe-finance
+credentials-file: ./credentials.json
+protocol: http2
+
+ingress:
+  - hostname: maybe-finance.yourdomain.com
+    service: http://localhost:3000
+  - service: http_status:404
